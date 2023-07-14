@@ -5,6 +5,9 @@ from fastapi import FastAPI, Depends
 from fastapi.responses import JSONResponse
 from fastapi.exceptions import RequestValidationError
 from sqlalchemy.orm import Session
+import uvicorn
+from fastapi.middleware.cors import CORSMiddleware
+
 
 # quando for executar o servidor
 try:
@@ -28,6 +31,16 @@ Base.metadata.create_all(bind=engine)
 
 # Cria uma instância da classe FastAPI para habilitar a interação com nossa API
 app = FastAPI()
+
+origins = ["http://0.0.0.0:5000"]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Tratamento de exceções
 @app.exception_handler(RequestValidationError)
@@ -175,3 +188,8 @@ async def lista_produtos_by_type(type : str, db: Session = Depends(get_db)):
 def check_type(type):
     return type in ['comida', 'bebida']
 
+
+
+if __name__ == '__main__':
+    uvicorn.run("main:app", host='0.0.0.0', port=5000, log_level="info", reload=True)
+    print("running")
