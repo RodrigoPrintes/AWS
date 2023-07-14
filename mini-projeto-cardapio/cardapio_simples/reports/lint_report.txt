@@ -1,0 +1,172 @@
+************* Module lista_supermercado_mysql.main
+/apps/lista_supermercado_mysql/main.py:16: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/main.py:19: [C0301(line-too-long), ] Line too long (101/100)
+/apps/lista_supermercado_mysql/main.py:48: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/main.py:55: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/main.py:57: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/main.py:63: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/main.py:65: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/main.py:72: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/main.py:95: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/main.py:107: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/main.py:118: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/main.py:120: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/main.py:121: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/main.py:131: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/main.py:136: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/main.py:177: [C0305(trailing-newlines), ] Trailing newlines
+/apps/lista_supermercado_mysql/main.py:34: [C0116(missing-function-docstring), validation_exception_handler] Missing function or method docstring
+/apps/lista_supermercado_mysql/main.py:34: [W0613(unused-argument), validation_exception_handler] Unused argument 'request'
+/apps/lista_supermercado_mysql/main.py:43: [C0103(invalid-name), listar_produtos] Argument name "db" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/main.py:49: [R1705(no-else-return), listar_produtos] Unnecessary "else" after "return", remove the "else" and de-indent the code inside it
+/apps/lista_supermercado_mysql/main.py:61: [C0103(invalid-name), adicionar_produto] Argument name "db" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/main.py:64: [R1705(no-else-return), adicionar_produto] Unnecessary "else" after "return", remove the "else" and de-indent the code inside it
+/apps/lista_supermercado_mysql/main.py:78: [C0103(invalid-name), atualizar_produto] Argument name "id" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/main.py:78: [C0103(invalid-name), atualizar_produto] Argument name "db" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/main.py:78: [W0622(redefined-builtin), atualizar_produto] Redefining built-in 'id'
+/apps/lista_supermercado_mysql/main.py:81: [R1705(no-else-return), atualizar_produto] Unnecessary "else" after "return", remove the "else" and de-indent the code inside it
+/apps/lista_supermercado_mysql/main.py:93: [C0103(invalid-name), apagar_produto] Argument name "id" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/main.py:93: [C0103(invalid-name), apagar_produto] Argument name "db" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/main.py:93: [W0622(redefined-builtin), apagar_produto] Redefining built-in 'id'
+/apps/lista_supermercado_mysql/main.py:96: [R1705(no-else-return), apagar_produto] Unnecessary "else" after "return", remove the "else" and de-indent the code inside it
+/apps/lista_supermercado_mysql/main.py:102: [W0612(unused-variable), apagar_produto] Unused variable 'produto'
+/apps/lista_supermercado_mysql/main.py:111: [C0116(missing-function-docstring), listar_pedido] Missing function or method docstring
+/apps/lista_supermercado_mysql/main.py:111: [C0103(invalid-name), listar_pedido] Argument name "db" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/main.py:117: [R1705(no-else-return), listar_pedido] Unnecessary "else" after "return", remove the "else" and de-indent the code inside it
+/apps/lista_supermercado_mysql/main.py:130: [C0116(missing-function-docstring), adicionar_pedidos] Missing function or method docstring
+/apps/lista_supermercado_mysql/main.py:130: [C0103(invalid-name), adicionar_pedidos] Argument name "db" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/main.py:145: [C0103(invalid-name), Remover_item_do_pedido] Function name "Remover_item_do_pedido" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/main.py:145: [C0103(invalid-name), Remover_item_do_pedido] Argument name "id" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/main.py:145: [C0103(invalid-name), Remover_item_do_pedido] Argument name "db" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/main.py:145: [W0622(redefined-builtin), Remover_item_do_pedido] Redefining built-in 'id'
+/apps/lista_supermercado_mysql/main.py:148: [R1705(no-else-return), Remover_item_do_pedido] Unnecessary "else" after "return", remove the "else" and de-indent the code inside it
+/apps/lista_supermercado_mysql/main.py:159: [C0116(missing-function-docstring), lista_produtos_by_type] Missing function or method docstring
+/apps/lista_supermercado_mysql/main.py:159: [C0103(invalid-name), lista_produtos_by_type] Argument name "db" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/main.py:159: [W0622(redefined-builtin), lista_produtos_by_type] Redefining built-in 'type'
+/apps/lista_supermercado_mysql/main.py:162: [R1705(no-else-return), lista_produtos_by_type] Unnecessary "else" after "return", remove the "else" and de-indent the code inside it
+/apps/lista_supermercado_mysql/main.py:175: [C0116(missing-function-docstring), check_type] Missing function or method docstring
+/apps/lista_supermercado_mysql/main.py:175: [W0622(redefined-builtin), check_type] Redefining built-in 'type'
+/apps/lista_supermercado_mysql/main.py:11: [W0611(unused-import), ] Unused ProdutoBase imported from schemas.produto
+/apps/lista_supermercado_mysql/main.py:12: [W0611(unused-import), ] Unused PedidoBase imported from schemas.pedido
+************* Module lista_supermercado_mysql.db.models
+/apps/lista_supermercado_mysql/db/models.py:10: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/models.py:17: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/models.py:23: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/models.py:24: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/models.py:27: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/models.py:31: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/models.py:15: [C0115(missing-class-docstring), Produto] Missing class docstring
+/apps/lista_supermercado_mysql/db/models.py:15: [R0903(too-few-public-methods), Produto] Too few public methods (0/2)
+/apps/lista_supermercado_mysql/db/models.py:25: [C0115(missing-class-docstring), Pedido] Missing class docstring
+/apps/lista_supermercado_mysql/db/models.py:25: [R0903(too-few-public-methods), Pedido] Too few public methods (0/2)
+/apps/lista_supermercado_mysql/db/models.py:5: [W0611(unused-import), ] Unused relationship imported from sqlalchemy.orm
+************* Module lista_supermercado_mysql.db.database
+/apps/lista_supermercado_mysql/db/database.py:27: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/database.py:21: [C0116(missing-function-docstring), get_db] Missing function or method docstring
+/apps/lista_supermercado_mysql/db/database.py:22: [C0103(invalid-name), get_db] Variable name "db" doesn't conform to snake_case naming style
+************* Module lista_supermercado_mysql.db.repositories
+/apps/lista_supermercado_mysql/db/repositories.py:23: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:48: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:51: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:53: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:57: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:58: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:60: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:63: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:65: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:68: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:75: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:80: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:83: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:84: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:87: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:89: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:93: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:102: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:107: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:110: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:111: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:115: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:116: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:117: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:118: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:119: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:120: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/db/repositories.py:9: [W0702(bare-except), ] No exception type(s) specified
+/apps/lista_supermercado_mysql/db/repositories.py:13: [C0115(missing-class-docstring), ProdutoRepository] Missing class docstring
+/apps/lista_supermercado_mysql/db/repositories.py:15: [C0116(missing-function-docstring), ProdutoRepository.listar_produtos] Missing function or method docstring
+/apps/lista_supermercado_mysql/db/repositories.py:15: [C0103(invalid-name), ProdutoRepository.listar_produtos] Argument name "db" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/db/repositories.py:19: [C0116(missing-function-docstring), ProdutoRepository.adicionar_produto] Missing function or method docstring
+/apps/lista_supermercado_mysql/db/repositories.py:19: [C0103(invalid-name), ProdutoRepository.adicionar_produto] Argument name "db" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/db/repositories.py:24: [C0116(missing-function-docstring), ProdutoRepository.atualizar_produto] Missing function or method docstring
+/apps/lista_supermercado_mysql/db/repositories.py:24: [C0103(invalid-name), ProdutoRepository.atualizar_produto] Argument name "db" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/db/repositories.py:24: [E0213(no-self-argument), ProdutoRepository.atualizar_produto] Method 'atualizar_produto' should have "self" as first argument
+/apps/lista_supermercado_mysql/db/repositories.py:25: [E1101(no-member), ProdutoRepository.atualizar_produto] Instance of 'ProdutoRepository' has no 'merge' member
+/apps/lista_supermercado_mysql/db/repositories.py:26: [E1101(no-member), ProdutoRepository.atualizar_produto] Instance of 'ProdutoRepository' has no 'commit' member
+/apps/lista_supermercado_mysql/db/repositories.py:30: [C0116(missing-function-docstring), ProdutoRepository.encontrar_produto_por_id] Missing function or method docstring
+/apps/lista_supermercado_mysql/db/repositories.py:30: [C0103(invalid-name), ProdutoRepository.encontrar_produto_por_id] Argument name "db" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/db/repositories.py:30: [C0103(invalid-name), ProdutoRepository.encontrar_produto_por_id] Argument name "id" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/db/repositories.py:30: [W0622(redefined-builtin), ProdutoRepository.encontrar_produto_por_id] Redefining built-in 'id'
+/apps/lista_supermercado_mysql/db/repositories.py:34: [C0116(missing-function-docstring), ProdutoRepository.existe_produto_por_id] Missing function or method docstring
+/apps/lista_supermercado_mysql/db/repositories.py:34: [C0103(invalid-name), ProdutoRepository.existe_produto_por_id] Argument name "db" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/db/repositories.py:34: [C0103(invalid-name), ProdutoRepository.existe_produto_por_id] Argument name "id" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/db/repositories.py:34: [W0622(redefined-builtin), ProdutoRepository.existe_produto_por_id] Redefining built-in 'id'
+/apps/lista_supermercado_mysql/db/repositories.py:38: [C0116(missing-function-docstring), ProdutoRepository.apagar_produto_por_id] Missing function or method docstring
+/apps/lista_supermercado_mysql/db/repositories.py:38: [C0103(invalid-name), ProdutoRepository.apagar_produto_por_id] Argument name "db" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/db/repositories.py:38: [C0103(invalid-name), ProdutoRepository.apagar_produto_por_id] Argument name "id" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/db/repositories.py:38: [W0622(redefined-builtin), ProdutoRepository.apagar_produto_por_id] Redefining built-in 'id'
+/apps/lista_supermercado_mysql/db/repositories.py:45: [C0116(missing-function-docstring), ProdutoRepository.apagar_todos_produtos] Missing function or method docstring
+/apps/lista_supermercado_mysql/db/repositories.py:45: [C0103(invalid-name), ProdutoRepository.apagar_todos_produtos] Argument name "db" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/db/repositories.py:50: [C0116(missing-function-docstring), ProdutoRepository.listar_produtos_por_tipo] Missing function or method docstring
+/apps/lista_supermercado_mysql/db/repositories.py:50: [C0103(invalid-name), ProdutoRepository.listar_produtos_por_tipo] Argument name "db" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/db/repositories.py:50: [W0622(redefined-builtin), ProdutoRepository.listar_produtos_por_tipo] Redefining built-in 'type'
+/apps/lista_supermercado_mysql/db/repositories.py:55: [C0116(missing-function-docstring), ProdutoRepository.check_item] Missing function or method docstring
+/apps/lista_supermercado_mysql/db/repositories.py:55: [C0103(invalid-name), ProdutoRepository.check_item] Argument name "db" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/db/repositories.py:59: [C0115(missing-class-docstring), PedidoRepository] Missing class docstring
+/apps/lista_supermercado_mysql/db/repositories.py:62: [C0116(missing-function-docstring), PedidoRepository.listar_pedidos] Missing function or method docstring
+/apps/lista_supermercado_mysql/db/repositories.py:62: [C0103(invalid-name), PedidoRepository.listar_pedidos] Argument name "db" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/db/repositories.py:67: [C0116(missing-function-docstring), PedidoRepository.adicionar_pedido] Missing function or method docstring
+/apps/lista_supermercado_mysql/db/repositories.py:67: [C0103(invalid-name), PedidoRepository.adicionar_pedido] Argument name "db" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/db/repositories.py:91: [C0116(missing-function-docstring), PedidoRepository.existe_pedido_por_id] Missing function or method docstring
+/apps/lista_supermercado_mysql/db/repositories.py:91: [C0103(invalid-name), PedidoRepository.existe_pedido_por_id] Argument name "db" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/db/repositories.py:91: [C0103(invalid-name), PedidoRepository.existe_pedido_por_id] Argument name "id" doesn't conform to snake_case naming style
+/apps/lista_supermercado_mysql/db/repositories.py:91: [W0622(redefined-builtin), PedidoRepository.existe_pedido_por_id] Redefining built-in 'id'
+/apps/lista_supermercado_mysql/db/repositories.py:95: [C0116(missing-function-docstring), PedidoRepository.atualizar_pedido] Missing function or method docstring
+/apps/lista_supermercado_mysql/db/repositories.py:95: [C0103(invalid-name), PedidoRepository.atualizar_pedido] Argument name "db" doesn't conform to snake_case naming style
+************* Module lista_supermercado_mysql.schemas.produto
+/apps/lista_supermercado_mysql/schemas/produto.py:23: [C0304(missing-final-newline), ] Final newline missing
+/apps/lista_supermercado_mysql/schemas/produto.py:4: [E0611(no-name-in-module), ] No name 'BaseModel' in module 'pydantic'
+/apps/lista_supermercado_mysql/schemas/produto.py:10: [C0115(missing-class-docstring), ProdutoBase] Missing class docstring
+/apps/lista_supermercado_mysql/schemas/produto.py:10: [R0903(too-few-public-methods), ProdutoBase] Too few public methods (0/2)
+/apps/lista_supermercado_mysql/schemas/produto.py:16: [C0115(missing-class-docstring), ProdutoRequest] Missing class docstring
+/apps/lista_supermercado_mysql/schemas/produto.py:16: [R0903(too-few-public-methods), ProdutoRequest] Too few public methods (0/2)
+/apps/lista_supermercado_mysql/schemas/produto.py:19: [C0115(missing-class-docstring), ProdutoResponse] Missing class docstring
+/apps/lista_supermercado_mysql/schemas/produto.py:22: [C0115(missing-class-docstring), ProdutoResponse.Config] Missing class docstring
+/apps/lista_supermercado_mysql/schemas/produto.py:22: [R0903(too-few-public-methods), ProdutoResponse.Config] Too few public methods (0/2)
+/apps/lista_supermercado_mysql/schemas/produto.py:19: [R0903(too-few-public-methods), ProdutoResponse] Too few public methods (0/2)
+/apps/lista_supermercado_mysql/schemas/produto.py:5: [C0411(wrong-import-order), ] standard import "from typing import Optional" should be placed before "from pydantic import BaseModel"
+/apps/lista_supermercado_mysql/schemas/produto.py:5: [W0611(unused-import), ] Unused Optional imported from typing
+************* Module lista_supermercado_mysql.schemas.pedido
+/apps/lista_supermercado_mysql/schemas/pedido.py:11: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/schemas/pedido.py:12: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/schemas/pedido.py:13: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/schemas/pedido.py:14: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/schemas/pedido.py:15: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/schemas/pedido.py:19: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/schemas/pedido.py:21: [C0303(trailing-whitespace), ] Trailing whitespace
+/apps/lista_supermercado_mysql/schemas/pedido.py:31: [C0305(trailing-newlines), ] Trailing newlines
+/apps/lista_supermercado_mysql/schemas/pedido.py:4: [E0611(no-name-in-module), ] No name 'BaseModel' in module 'pydantic'
+/apps/lista_supermercado_mysql/schemas/pedido.py:10: [C0115(missing-class-docstring), PedidoBase] Missing class docstring
+/apps/lista_supermercado_mysql/schemas/pedido.py:10: [R0903(too-few-public-methods), PedidoBase] Too few public methods (0/2)
+/apps/lista_supermercado_mysql/schemas/pedido.py:18: [C0115(missing-class-docstring), PedidoRequest] Missing class docstring
+/apps/lista_supermercado_mysql/schemas/pedido.py:18: [R0903(too-few-public-methods), PedidoRequest] Too few public methods (0/2)
+/apps/lista_supermercado_mysql/schemas/pedido.py:22: [C0115(missing-class-docstring), PedidoResponse] Missing class docstring
+/apps/lista_supermercado_mysql/schemas/pedido.py:27: [C0115(missing-class-docstring), PedidoResponse.Config] Missing class docstring
+/apps/lista_supermercado_mysql/schemas/pedido.py:27: [R0903(too-few-public-methods), PedidoResponse.Config] Too few public methods (0/2)
+/apps/lista_supermercado_mysql/schemas/pedido.py:22: [R0903(too-few-public-methods), PedidoResponse] Too few public methods (0/2)
+/apps/lista_supermercado_mysql/schemas/pedido.py:5: [C0411(wrong-import-order), ] standard import "from typing import Optional" should be placed before "from pydantic import BaseModel"
+/apps/lista_supermercado_mysql/schemas/pedido.py:5: [W0611(unused-import), ] Unused Optional imported from typing
+
+-----------------------------------
+Your code has been rated at 0.27/10
+
